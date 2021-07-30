@@ -34,11 +34,11 @@ The Purpose of this anlaysis is to use the resampling models to predict credit r
     ![BalancedRF](Resources/BalancedRF.png)
     
 - Easy Ensemble AdaBoost Classifier
-    - The balanced accuracy score for Easy Ensemble AdaBoost proves to be the most accurate model teste in this analaysis. This model will accurately predict the credit risk about 92.5% of the time. This is highly accurate and thus could be an acceptable method of predictige analysis. 
+    - The balanced accuracy score for Easy Ensemble AdaBoost proves to be the most accurate model tested in this analaysis. This model will accurately predict the credit risk about 92.5% of the time. This is highly accurate and thus could be an acceptable method of predictige analysis. 
     ![AdaAccuracy](Resources/AdaAccuracy.png)
  
  
 ## Summary
 
-Through the resampling and esemble methods, when analyzing the different balanced accuracy scores, the conclusion that can be drawn is that none of the tested methods in this analysis are accurate enough to use in predicting credit risk. The reason for these methods not being accurate enough is typically, when using models there is the hope for their outputs to accurately represent the true data. Within these different model trials when comparing their outputs with their true values there is a low accuracy rate for many of them. This means that the predictive model is risky to use because if it is not accurately predicting then there is a higher potential for losses to occur. 
-Further analysis can to be conducted in order to find a prediction model that will work with predicting credit risk in order to reduce losses from the found accurate model of 92% with the easy ensemble method. However, this is a highly accurate model and should suffice.  
+Through the resampling and esemble methods, when analyzing the different balanced accuracy scores, the conclusion that can be drawn is that all but one of the tested methods in this analysis are not accurate enough to use in predicting credit risk. Within these different model trials when comparing their outputs with their true values there is a low accuracy rate for many of them. This means that those predictive models are risky to use because if it they are not accurately predicting then there is a higher potential for loss to occur. 
+Using Ensemble methods to find a prediction model that will work with predicting credit risk was where we resulted in an accurate predictive model. The Easy Ensemble AdaBoost method had an accuracy score of 92.5% which is a high enough accuracy to be used as the predicitive model.
